@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>kalkulator ukk</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<div class="kalkulator">
+		<input id="input" disabled>
+		<div class="tombol">
+			<button onclick="angka('7')">7</button>
+			<button onclick="angka('8')">8</button>
+			<button onclick="angka('9')">9</button>
+			<button class="op" onclick="op('+')">+</button>
+
+			<button onclick="angka('4')">4</button>
+			<button onclick="angka('5')">5</button>
+			<button onclick="angka('6')">6</button>
+			<button class="op" onclick="op('-')">-</button>
+
+			<button onclick="angka('1')">1</button>
+			<button onclick="angka('2')">2</button>
+			<button onclick="angka('3')">3</button>
+			<button class="op" onclick="op('*')">x</button>
+
+			<button onclick="angka('00')">00</button>
+			<button onclick="angka('0')">0</button>
+			<button onclick="angka('.')">.</button>
+			<button class="op" onclick="op('/')">/</button>
+
+			<button class="hapus" onclick="hapusall()">ac</button>
+			<button class="hapus" onclick="hapus()">c</button>
+			<button class="hasil" onclick="hasil()">=</button>
+		</div>
+	</div>
+	<script src="script1.js">
+	</script>
+
+</body>
+</html>
